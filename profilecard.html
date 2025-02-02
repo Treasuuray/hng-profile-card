@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILECARD FOR TREASURE</title>
+    <link rel="stylesheet" href="profilecard.css">
+    <script src="https://kit.fontawesome.com/61981c2da7.js" crossorigin="anonymous"></script>
+
+</head>
+<body onload="setUTCTime()">
+    <div class="main-container">
+    <div class="profilecard-container">
+        
+            <div class="left-content">
+                <img data-testid="profilePicture" src="simi.image.jpg">
+                <h3 data-testid="fullName">Olowolade Treasure Similoluwa</h3>
+                <p data-testid="jobTitle">Frontend Developer</p>
+            </div>
+            <hr>
+            <div class="right-content">
+                <h3>Profile details</h3>
+                <p data-testid="shortBio"><b>Bio:</b>  I am a Frontend developer with 4 months of experience, passionate about creating
+                 clean, efficient, and accessible web applications. I enjoy turning ideas into interactive experiences and 
+                 continuously learning new technologies to improve my skills in web development. My goal is to develop high-quality, visually 
+                 appealing applications that make the web more intuitive and accessible for all users.</p>
+                 <p data-testid="currentLocation"><b>Location:</b>  Lagos State, Nigeria.</p>
+
+                <p data-testid="emailAddress"><b>Email:</b>  treasureolowolade@gmail.com</p>
+                <p data-testid="socialLinks">
+                    <span><a href="https://www.linkedin.com/in/treasure-olowolade-5564392b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin fa-2xl"></i></a></span>
+                     <span><a href="https://github.com/Treasuuray/Treasuuray.git"><i class="fa-brands fa-github fa-2xl"></i></a></span>
+                     <span><a href="https://x.com/TreasureOl75730?t=YIyOpcVG_CiQekkC1hoIow&s=09"><i class="fa-brands fa-x-twitter fa-2xl"></i></a></span>
+                     <span><a href="https://www.instagram.com/simi_treasy?igsh=dHRnM2IwajNpemk5"><i class="fa-brands fa-instagram fa-2xl"></i></a></span>
+                </p>
+
+                <p id="time" data-testid="currentTimeUTC"><b>CurrentTime:</b></p>
+            </div>
+    </div>
+        
+    </div>
+
+    <script src="profilecard.js"></script>
+</body>
+</html>
